@@ -1,0 +1,14 @@
+<div class="p-3 border custom-class">
+  <div class="row g-0">
+    <div class="col text-center p-2 mb-3 bg-light">
+      <span class="fs-3">You Already Have a Transaction Request in Pending With the Details Given Below.</span>
+    </div>
+  </div>
+  <div class="mb-3 mt-3">
+    <h6>Transaction Date:   <span>{{ currentDateAndTime | date }}</span></h6>
+    <h6>Account Number:     <span> 983743238483929 - Saving Account</span></h6>
+    <h6>Amount Details:     <span>500</span></h6>
+  </div>
+  <button type="submit" class="btn btn-primary text-center" (click)="goToProceed()">Proceed</button> &nbsp;&nbsp;
+  <button type="submit" class="btn btn-primary text-center" (click)="goToDecline()">Decline</button>
+  </div>

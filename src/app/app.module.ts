@@ -8,6 +8,7 @@ import { MobileNumberComponent } from './component/mobile-number/mobile-number.c
 import { EnterOtpComponent } from './component/enter-otp/enter-otp.component';
 import { EnterPinComponent } from './component/enter-pin/enter-pin.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TranctionInfoComponent } from './component/tranction-info/tranction-info.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     LandingPageComponent,
     MobileNumberComponent,
     EnterOtpComponent,
-    EnterPinComponent
+    EnterPinComponent,
+    TranctionInfoComponent
   ],
   imports: [
     BrowserModule,

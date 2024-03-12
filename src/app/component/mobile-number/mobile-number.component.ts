@@ -29,7 +29,7 @@ export class MobileNumberComponent implements OnInit {
 
   public mobileVerificationFormSubmit(): void {
 
-    this._router.navigateByUrl('/enter-otp');
+    this._router.navigateByUrl('/transaction-info');
     
   }
 
